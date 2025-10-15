@@ -872,7 +872,7 @@ https://gmgn.ai/api/v1/token_mcap_candles/sol/${tokenAddress}?device_id=${device
 
 
         const tablists = document.querySelectorAll('div[role="tablist"]');
-        const tabs = tablists[2];
+        const tabs = tablists[tablists.length - 1];
         const filterIcon = document.createElement('button');
 
         const multipleBrowser = document.createElement('button');
