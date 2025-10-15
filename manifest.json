@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "GMGN Filter Extension",
+    "name": "GMGN SOL Filter Extension",
     "version": "1.0",
     "description": "Adds filtering capabilities to gmgn.ai with platform selection and range filters",
     "permissions": [
@@ -26,5 +26,11 @@
     "action": {
         "default_popup": "popup.html",
         "default_title": "GMGN Filter"
+    },
+    "icons": {
+      "16": "gmgn-filter-sol.png",
+      "32": "gmgn-filter-sol.png",
+      "48": "gmgn-filter-sol.png",
+      "128": "gmgn-filter-sol.png"
     }
 }
